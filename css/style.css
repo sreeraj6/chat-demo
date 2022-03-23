@@ -1,0 +1,36 @@
+body{
+    background: #D45F5F;
+}
+.chat_icon{
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+    font-size: 80px;
+    color: #ffff;
+    background: black;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    z-index: 1000;
+}
+.chat_box{
+    position: fixed;
+    bottom : 100px;
+    right: 20px;
+    height: 75vh;
+    width: 400px;
+    background: #ffffff;
+    z-index: 1000;
+    transition: all 0.3s ease-out;
+    transform: scaleY(0);
+    padding: 20px;
+}
+.chat_box.active{
+    transform: scaleY(1);
+}
+.hidden{
+    display: none !important;
+}
+#messages{
+    padding: 10px;
+}
