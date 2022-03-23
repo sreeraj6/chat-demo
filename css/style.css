@@ -17,13 +17,12 @@ body{
     position: fixed;
     bottom : 100px;
     right: 20px;
-    height: 75vh;
+    height: 70vh;
     width: 400px;
     background: #ffffff;
     z-index: 1000;
     transition: all 0.3s ease-out;
     transform: scaleY(0);
-    padding: 20px;
 }
 .chat_box.active{
     transform: scaleY(1);
@@ -33,4 +32,10 @@ body{
 }
 #messages{
     padding: 10px;
+}
+.bot{
+    position: fixed;
+    bottom: 27px;
+    right: 135px;
+    color: #ffff;
 }
